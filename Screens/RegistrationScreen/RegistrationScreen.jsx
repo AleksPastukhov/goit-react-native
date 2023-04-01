@@ -60,7 +60,7 @@ export default function RegistrationScreen() {
               <View style={styles.avatarWrap}>
                 <Image
                   style={styles.avatar}
-                  // source={require("../../assets/images/Rectangle.jpg")}
+                  // source={require("../../assets/images/Rectangle.jpg")}r
                 />
                 <TouchableOpacity activeOpacity={0.8} style={styles.avatarBtn}>
                   <AntDesign name="pluscircleo" size={25} color="#ff6c00" />
