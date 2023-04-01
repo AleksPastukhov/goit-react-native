@@ -6,6 +6,8 @@ import LoginScreen from "./Screens/LoginScreen/LoginScreen";
 import RegistrationScreen from "./Screens/RegistrationScreen/RegistrationScreen";
 
 export default function App() {
+  console.log("Hello debugger!!!");
+
   const [fontsLoaded] = useFonts({
     "Roboto-Medium": require("./assets/fonts/Roboto-Medium.ttf"),
     "Roboto-Regular": require("./assets/fonts/Roboto-Regular.ttf"),
